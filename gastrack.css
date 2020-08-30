@@ -26,7 +26,7 @@ body {
 }
 
 .inp {
-   width: 140px;
+   width: 143px;
 }
 
 
@@ -39,6 +39,11 @@ ul {
     list-style-type: none;
 }
 
+.contour {
+    border: solid 1px;
+    margin: 0 12px 10px 10px 
+}
+
 .liste {
     border: solid 1px black;
     margin: auto;
@@ -47,7 +52,7 @@ ul {
 }
 
 .km0 {
-    margin: 0 78px 0 0 ;
+    margin: 0 65px 0 0 ;
     color: var(--red);
 }
 
