@@ -1,0 +1,69 @@
+:root {
+  --red: #d22f2d;
+  --blue: #2DA8D8FF;
+  --black: #333;
+}
+
+
+body {
+  color: var(--black) ;
+}
+
+.container {
+    max-width: 550px;
+    margin: 20px auto;
+}
+
+.title {
+    color: var(--red);
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: ;
+    padding: 10px;
+}
+
+.inp {
+   width: 140px;
+}
+
+
+.tabletitle {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.liste {
+    border: solid 1px black;
+    margin: auto;
+    width: 100%;
+    position: 
+}
+
+.km0 {
+    margin: 0 78px 0 0 ;
+    color: var(--red);
+}
+
+.flexbox {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.close {
+    cursor: pointer;
+    color: black;
+}
+
+.asterix {
+    position: absolute;
+    bottom: 0;
+    font-size: 80%;
+}

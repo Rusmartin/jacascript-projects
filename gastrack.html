@@ -1,0 +1,36 @@
+<DOCTYPE html>
+<html>
+<head>
+    <title>GasTrack</title>
+    <link rel="stylesheet" type="text/css" href="gastrack.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>    
+<body>
+    <div id="myDIV" class="container w3-card-4">
+    
+        <header class="space w3-container w3-indigo">
+            <h1>Welcome to <span class="title">GasTrack</span></h1>
+        </header>
+
+        <div class="inputs">
+            <input type="date" id="date" placeholder="date" required>
+            <input type="number" id="km" class="inp" placeholder="km*" required>
+            <input type="number" id="litre" class="inp" placeholder="litres" required>
+            <input type="submit" onclick="newElement()" value="ADD" class="w3-btn w3-indigo">
+        </div>
+        
+        <div class="tabletitle">
+            <span>Date</span>
+            <span>Km</span>
+            <span>Litre</span>
+            <span>L/100km</span>
+        </div>
+        
+        <div class="flexbox">
+            <ul id="myUl"></ul>
+        </div>
+    </div>
+    <p class="asterix">* enter the distance in kilometer since your last fill up.</p>
+    <script src="gastrack.js"></script>
+</body>    
+</html>
